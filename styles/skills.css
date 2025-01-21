@@ -1,0 +1,34 @@
+.skills div.content {
+    justify-content: space-evenly;
+    gap: 20px;
+}
+
+.professional h3, .personal h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.75rem;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.skill-images {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.skill-images img {
+    width: 100px;
+}
+
+.personal ul {
+    justify-items: center;
+    list-style: none;
+}
+
+.personal ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.25rem;
+    padding-bottom: 15px;
+}

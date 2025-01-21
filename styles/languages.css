@@ -1,0 +1,25 @@
+.languages div.content ul {
+    list-style: none;
+}
+
+.languages div.content ul li {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding-left: 30px;
+    position: relative;
+}
+
+.languages div.content ul li::before {
+    content: '';
+    width: 15px;
+    height: 15px;
+    background-image: url('/assets/icons/check.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}

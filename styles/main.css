@@ -1,0 +1,190 @@
+@import url('fonts.css');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+
+body {
+    background-color: #000;
+    color: #FFF;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/assets/images/grad1.png'), url('/assets/images/grad2.png');
+    background-position: top -400px left -400px, bottom -400px right -400px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: cover;
+}
+
+main {
+    width: 64vw;
+    max-width: 1300px;
+    margin: 6rem 0;
+    padding: 10rem 5rem;
+    border: 3px solid #FFF;
+    border-radius: 32px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    padding-bottom: 100px;
+}
+
+header img {
+    width: 350px;
+    height: 350px;
+    border: 1px solid #FFF;
+    border-radius: 50%;
+}
+
+header .profile-info {
+    display: flex;
+    flex-direction: column;
+    max-width: 450px;
+    gap: 20px;
+}
+
+.profile-info h1 {
+    font-family: 'Neue Machina', sans-serif;
+    font-weight: 400;
+    font-size: 3rem;
+    line-height: 4rem;
+}
+
+.profile-info ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.profile-info li {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1.25rem;
+    padding-left: 40px;
+    position: relative;
+}
+
+
+li.perfil::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-image: url('/assets/icons/perfil.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: calc(50% + 3px);
+    transform: translateY(-50%);
+}
+
+li.location::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-image: url('/assets/icons/local.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: calc(50% + 3px);
+    transform: translateY(-50%);
+}
+
+li.phone::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-image: url('/assets/icons/whatsapp.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: calc(50% + 3px);
+    transform: translateY(-50%);
+}
+
+li.email::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-image: url('/assets/icons/mail.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: calc(50% + 3px);
+    transform: translateY(-50%);
+}
+
+section {
+    min-height: 100px;
+    border: 2px solid #FFF;
+    border-radius: 48px;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+    transition: border .2s, background .2s;
+}
+
+section:hover {
+    border: 2px solid #55569E;
+    background-color: #55569E;
+}
+
+section.open {
+    cursor: default;
+    border: 2px solid #55569E;
+    background-color: #55569E;
+    transition: height 1s ease;
+}
+
+div.header {
+    display: flex;
+    padding: 0 60px;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+div.header h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+div.header button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+div.header button img {
+    transition: transform 1s;
+}
+
+div.content {
+    display: none;
+    padding: 2rem 4rem;
+}
+
+section.open div.header button img {
+    transform: rotate(540deg);
+}
+
+section.open div.content{
+    display: flex;
+}

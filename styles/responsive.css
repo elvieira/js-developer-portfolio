@@ -1,0 +1,97 @@
+@media screen and (max-width: 1570px){
+    html {
+        font-size: 14px;
+    }
+
+    main {
+        width: 80vw;
+    }
+
+    div.header h2 {
+        font-size: 2.5rem;
+    }
+
+    .skills div.content {
+        flex-direction: column;
+    }
+
+    .skill-images img {
+        width: 150px;
+    }
+}
+
+@media screen and (max-width: 1080px){
+    header {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .skill-images img {
+        width: 90px;
+    }
+
+    div.header button img {
+        max-width: 30px;
+    }
+}
+
+@media screen and (max-width: 770px){
+    html {
+        font-size: 12px;
+    }
+
+    .skill-images img {
+        width: 60px;
+    }
+
+    .education div.content ul.dio-achievements li img {
+        max-width: 70px;
+    }
+}
+
+@media screen and (max-width: 615px){
+    html {
+        font-size: 10px;
+    }
+
+    header img {
+        width: 250px;
+        height: 250px;
+    }
+
+    .skill-images img {
+        width: 40px;
+    }
+
+    section div.header h2 {
+        font-size: 2rem;
+    }
+
+    div.header button img {
+        max-width: 20px;
+    }
+}
+
+@media screen and (max-width: 510px){
+    section div.header {
+        padding: 0 30px;
+    }
+
+    section div.content {
+        padding: 1rem 2rem 4rem;
+    }
+
+    .portfolio div.content ul li a {
+        font-size: 0.825rem;
+    }
+}
+
+@media screen and (max-width: 440px){
+    .skill-images {
+        gap: 20px;
+    }
+    
+    .skill-images img {
+        width: 25px;
+    }
+}

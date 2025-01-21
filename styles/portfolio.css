@@ -1,0 +1,43 @@
+.portfolio div.content ul {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    list-style: none;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.portfolio div.content ul li {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.portfolio div.content ul li h4 {
+    font-size: 1.625rem;
+    font-weight: 600;
+    padding-left: 35px;
+    position: relative;
+}
+
+.portfolio div.content ul li h4::before {
+    content: '';
+    width: 25px;
+    height: 25px;
+    background-image: url('/assets/icons/icon-github.svg');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: calc(50% + 2px);
+    transform: translateY(-50%);
+}
+
+.portfolio div.content ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.portfolio div.content ul li a:hover {
+    text-decoration: underline;
+}
