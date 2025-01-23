@@ -55,6 +55,8 @@
     ]
     },
 
+    "portfolio": "https://api.github.com/users/elvieira/repos?sort=updated&per_page=5",
+
     "experience": [
         {
             "title": "Full-Stack Developer | Freelancer",
