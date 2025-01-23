@@ -55,11 +55,11 @@
     ]
     },
 
-    "experience": {
-        "0": {
+    "experience": [
+        {
             "title": "Full-Stack Developer | Freelancer",
             "date": "Jan 2024 - Atualmente",
             "description": "Criação de sites e aplicações responsivos com interfaces modernas e funcionalidades robustas. Trabalho com tecnologias como HTML, CSS, JavaScript, React, Node.js e bancos de dados (SQL e NoSQL)."
         }
-    }
+    ]
 }
