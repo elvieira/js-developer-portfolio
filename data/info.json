@@ -39,20 +39,20 @@
             "https://assets.dio.me/JdBTHUCmNxrrJUiTJ2Xr3uCb3ERnBFWVbLU0kZlfxpY/f:webp/h:120/q:80/L3RyYWNrcy85NzdkMWI0MS01ODg4LTQ0ZDctOGU0Yy01N2QyMzQ4NzQ4ZGMucG5n",
             "https://assets.dio.me/N3ET28fsUKPyJZb6mh6vdqhVziWjbk3xPNlE_velBWs/f:webp/h:120/q:80/L3RyYWNrcy85NzIyOTdkYy00MzU3LTRhZjQtYWJlYS04OWEzODg1M2E5NDkucG5n"
         ],
-        "others": {
-        "0": {
+        "others": [
+        {
             "title": "dio.me",
             "description": "Front-end Developer Track - Back-end Developer Track"
         },
-        "1": {
+        {
             "title": "UNINTER | Bacharelado em Ciência da Computação",
             "description": "EAD - 2028"
         },
-        "2": {
+        {
             "title": "Curso de Informática",
             "description": "Giga Company - 2014"
         }
-        }
+    ]
     },
 
     "experience": {
