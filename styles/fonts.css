@@ -1,20 +1,20 @@
 @font-face {
     font-family: 'Neue Machina';
-    src: url('/assets/fonts/NeueMachina/NeueMachina-Light.otf') format('opentype');
+    src: url('../assets/fonts/NeueMachina/NeueMachina-Light.otf') format('opentype');
     font-weight: 300;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Neue Machina';
-    src: url('/assets/fonts/NeueMachina/NeueMachina-Regular.otf') format('opentype');
+    src: url('../assets/fonts/NeueMachina/NeueMachina-Regular.otf') format('opentype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Neue Machina';
-    src: url('/assets/fonts/NeueMachina/NeueMachina-Bold.otf') format('opentype');
+    src: url('../assets/fonts/NeueMachina/NeueMachina-Bold.otf') format('opentype');
     font-weight: 700;
     font-style: normal;
 }

@@ -14,7 +14,7 @@
     content: '';
     width: 15px;
     height: 15px;
-    background-image: url('/assets/icons/check.svg');
+    background-image: url('../assets/icons/check.svg');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
